@@ -20,15 +20,22 @@
 2. Start the project
     
     ```sh
-   cd bms
 
-   pip install -r requirements.tsx
+    pip install virtualenv 
 
-   python manage.py makemigrations 
+    virtualenv venv
 
-   python manage.py migrate
+    source venv/bin/active
 
-   python manage.py runserver
+    cd bms
+
+    pip install -r requirements.tsx
+
+    python manage.py makemigrations 
+
+    python manage.py migrate
+
+    python manage.py runserver
 
     ```
 
