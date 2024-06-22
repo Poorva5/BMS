@@ -7,7 +7,6 @@
 - virtualenv (for creating isolated Python environments)
 - django
 - django rest framework
-- simplejwt
 
 
 ### Steps
